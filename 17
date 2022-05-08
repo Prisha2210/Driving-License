@@ -1,0 +1,7 @@
+mylist= [0,1,2,3]
+
+try: 
+    print(mylist[6])
+    
+except IndexError:
+    print("The given index number is cannot be found in mylist")
